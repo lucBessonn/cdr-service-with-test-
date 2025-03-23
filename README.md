@@ -45,10 +45,10 @@ mvn spring-boot:run
 Приложение будет доступно по адресу http://localhost:8080.
 
 Запрос для одного абонента за месяц
-http://localhost:8080/api/udr/subscriber/79990001122?year=2025&month=2
+GET http://localhost:8080/api/udr/subscriber/79990001122?year=2025&month=2
 
 Запрос для одного абонента за всё время
-http://localhost:8080/api/udr/subscriber/79990001122
+GET http://localhost:8080/api/udr/subscriber/79990001122
 
 Запрос по всем абонентам за месяц
-http://localhost:8080/api/udr/all?year=2024&month=3
+GET http://localhost:8080/api/udr/all?year=2024&month=3
